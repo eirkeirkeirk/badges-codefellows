@@ -1,0 +1,152 @@
+/* style.css */
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300);
+
+/* *********************************************************************************************************************
+ * Main elements
+ */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    background: rgba(237,239,240,1.0);
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgba(75,86,88,1.0);
+}
+
+header {
+    padding: 2% 5% 0% 5%;
+}
+
+h1{
+    color: rgba(56,64,71,1.0);
+}
+
+img {
+    max-width: 100%;
+}
+
+.card {
+    display: inline-block;
+    margin: 5% 5%;
+    padding: 3% 5%;
+    background: rgba(255,255,255,1.0);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.07);
+    border-radius: 4px;
+}
+
+/* *********************************************************************************************************************
+ * Image styling
+ */
+.user_img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 75%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+.badge_gallery_img {
+    margin: .25%;
+    width: 5%;
+}
+
+.recommended_badge_img {
+    float: right;
+    width:15%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+
+/* *********************************************************************************************************************
+ * For Debugging Only
+ */
+/*
+.col2,.col4,.col8,.col10,.col12 {
+    background: rgba(100,200,200,1.0);
+}
+*/
+
+/* *********************************************************************************************************************
+ * Typography
+ */
+ .user_name {
+     font-size: 3rem;
+     text-align: center;
+     margin-top: 10%;
+     margin-bottom: 0%;
+ }
+ .badge_count {
+     font-size: 1.25rem;
+     text-align: center;
+     margin-top: 0%;
+     margin-bottom: 0%;
+ }
+ .recommendation_label {
+     font-size: 1.25rem;
+     margin-bottom: 0%;
+ }
+ /* *********************************************************************************************************************
+  * Layout
+  */
+
+
+  .col2,.col4,.col8,.col10,.col12 {
+      display:inline-block;
+  }
+
+
+
+  .badge_gallery_row {
+      padding-top: 2.5%;
+      padding-bottom: 15%;
+  }
+
+ .badge_recommendation_row {
+    border-top: 10px solid rgba(200,200,200,1.0);
+    padding-top: 2.5%;
+ }
+
+
+
+
+/* *********************************************************************************************************************
+ * Large screens
+ */
+@media all and (min-width: 1024px) {
+
+}
+/* *********************************************************************************************************************
+ * Smaller devices
+ */
+@media all and (max-width: 768px) {
+
+
+    .user_name {
+        font-size: 2rem;
+        margin-top: 5%;
+    }
+    .badge_gallery_row {
+        padding-top: 2.5%;
+        padding-bottom: 25%;
+    }
+    .badge_gallery_img {
+        margin: .5%;
+        width: 10%;
+    }
+    .badge_recommendation_row {
+        padding-top: 1%;
+    }
+    .recommended_badge_img {
+        float: none;
+        width:10%;
+    }
+    .recommendation_label {
+        font-size: 1.25rem;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+
+
+}

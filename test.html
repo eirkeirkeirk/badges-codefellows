@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Browser tests</title>
+  <!-- code/css to be tested: -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TimelineMax.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+
+
+    <script src="js/person.js"></script>
+    <script src="js/badge.js"></script>
+    <script src="js/controller.js"></script>
+    <!-- <script src="js/uibuilder.js"></script> -->
+    <!--<script src="js/main.js"></script>-->
+
+<!-- mocha+chai: -->
+  <script src="node_modules/mocha/mocha.js"></script>
+  <script src="node_modules/chai/chai.js"></script>
+  <link rel="stylesheet" media="all" href="node_modules/mocha/mocha.css">
+</head>
+
+<body>
+<!-- partitions for output -->
+  <div id="mocha"><p><a href=".">Index</a></p></div>
+  <div id="other"></div>
+<!-- set up mocha tests -->
+<script>mocha.setup('bdd')</script>
+<script src="test/tests.js"></script>
+<script>
+  // mocha.checkLeaks();
+  mocha.run();
+</script>
+</body>
+</html>

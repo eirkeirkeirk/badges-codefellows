@@ -1,0 +1,424 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ge",
+				"getBadgeObjects"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "// TESTS!\nvar patJSON = {\n    \"name\": \"Patrick Harry\",\n    \"profile_name\": \"patharryux\",\n    \"profile_url\": \"https://teamtreehouse.com/patharryux\",\n    \"gravatar_url\": \"https://uploads.teamtreehouse.com/production/profile-photos/3928262/thumb_pat.png\",\n    \"gravatar_hash\": \"e9010ebf1e8424ce63f3af1066b7a5d7\",\n    \"badges\": [{\n        \"id\": 912,\n        \"name\": \"HTML\",\n        \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website/beginning-html-and-css\",\n        \"icon_url\": \"https://achievement-images.teamtreehouse.com/badges_html_howtomakeawebsite_stage01.png\",\n        \"earned_date\": \"2015-07-09T17:56:34.000Z\",\n        \"courses\": [{\n            \"title\": \"How to Make a Website\",\n            \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website\",\n            \"badge_count\": 1\n        }, {\n            \"title\": \"Beginning HTML and CSS\",\n            \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website/beginning-html-and-css\",\n            \"badge_count\": 1\n        }]\n    }, {\n        \"id\": 922,\n        \"name\": \"CSS\",\n        \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website/html-first\",\n        \"icon_url\": \"https://achievement-images.teamtreehouse.com/bagdes_html_howtobuildawebsite_stage02.png\",\n        \"earned_date\": \"2015-07-23T05:42:26.000Z\",\n        \"courses\": [{\n            \"title\": \"How to Make a Website\",\n            \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website\",\n            \"badge_count\": 1\n        }, {\n            \"title\": \"HTML First\",\n            \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website/html-first\",\n            \"badge_count\": 1\n        }]\n    }, {\n        \"id\": 932,\n        \"name\": \"Bass\",\n        \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website/creating-html-content\",\n        \"icon_url\": \"https://achievement-images.teamtreehouse.com/bagdes_html_howtobuildawebsite_stage03.png\",\n        \"earned_date\": \"2015-07-23T06:54:14.000Z\",\n        \"courses\": [{\n            \"title\": \"How to Make a Website\",\n            \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website\",\n            \"badge_count\": 1\n        }, {\n            \"title\": \"Creating HTML Content\",\n            \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website/creating-html-content\",\n            \"badge_count\": 1\n        }]\n    }],\n    \"points\": {\n        \"total\": 2594,\n        \"HTML\": 768,\n        \"CSS\": 705,\n        \"Design\": 8,\n        \"JavaScript\": 718,\n        \"Ruby\": 0,\n        \"PHP\": 0,\n        \"WordPress\": 0,\n        \"iOS\": 0,\n        \"Android\": 0,\n        \"Development Tools\": 72,\n        \"Business\": 0,\n        \"Python\": 27,\n        \"Java\": 0,\n        \"Digital Literacy\": 263,\n        \"Game Development\": 0\n    }\n}\nvar jasonJSON = {\n    \"name\": \"Jason Siren\",\n    \"profile_name\": \"jasonsiren\",\n    \"profile_url\": \"https://teamtreehouse.com/jasonsiren\",\n    \"gravatar_url\": \"https://uploads.teamtreehouse.com/production/profile-photos/3252092/thumb_jason_1.JPG\",\n    \"gravatar_hash\": \"96c61b4f5ee8ce479e215de82ca23c16\",\n    \"badges\": [{\n        \"id\": 912,\n        \"name\": \"HTML\",\n        \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website/beginning-html-and-css\",\n        \"icon_url\": \"https://achievement-images.teamtreehouse.com/badges_html_howtomakeawebsite_stage01.png\",\n        \"earned_date\": \"2015-07-09T17:56:34.000Z\",\n        \"courses\": [{\n            \"title\": \"How to Make a Website\",\n            \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website\",\n            \"badge_count\": 1\n        }, {\n            \"title\": \"Beginning HTML and CSS\",\n            \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website/beginning-html-and-css\",\n            \"badge_count\": 1\n        }]\n    }, {\n        \"id\": 3082,\n        \"name\": \"JS\",\n        \"url\": \"https://teamtreehouse.com/library/build-an-android-app/getting-started-with-android\",\n        \"icon_url\": \"https://achievement-images.teamtreehouse.com/badges_Android_BuildASimple_Stage1.png\",\n        \"earned_date\": \"2015-04-14T02:46:39.000Z\",\n        \"courses\": [{\n            \"title\": \"Build a Simple Android App\",\n            \"url\": \"https://teamtreehouse.com/library/build-a-simple-android-app\",\n            \"badge_count\": 1\n        }, {\n            \"title\": \"Getting Started with Android\",\n            \"url\": \"https://teamtreehouse.com/library/build-an-android-app/getting-started-with-android\",\n            \"badge_count\": 1\n        }]\n    }, {\n        \"id\": 3092,\n        \"name\": \"jQuery\",\n        \"url\": \"https://teamtreehouse.com/library/build-a-simple-android-app-new/creating-the-screen-layout\",\n        \"icon_url\": \"https://achievement-images.teamtreehouse.com/badges_Android_BuildASimple_Stage2.png\",\n        \"earned_date\": \"2015-04-16T02:37:28.000Z\",\n        \"courses\": [{\n            \"title\": \"Build a Simple Android App\",\n            \"url\": \"https://teamtreehouse.com/library/build-a-simple-android-app\",\n            \"badge_count\": 1\n        }, {\n            \"title\": \"Creating the Screen Layout\",\n            \"url\": \"https://teamtreehouse.com/library/build-a-simple-android-app-new/creating-the-screen-layout\",\n            \"badge_count\": 1\n        }]\n    }, {\n        \"id\": 942,\n        \"name\": \"Zappa\",\n        \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website/css-cascading-style-sheets\",\n        \"icon_url\": \"https://achievement-images.teamtreehouse.com/bagdes_html_howtobuildawebsite_stage04.png\",\n        \"earned_date\": \"2015-06-06T23:32:13.000Z\",\n        \"courses\": [{\n            \"title\": \"How to Make a Website\",\n            \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website\",\n            \"badge_count\": 1\n        }, {\n            \"title\": \"CSS: Cascading Style Sheets\",\n            \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website/css-cascading-style-sheets\",\n            \"badge_count\": 1\n        }]\n    }],\n    \"points\": {\n        \"total\": 4810,\n        \"HTML\": 1169,\n        \"CSS\": 1322,\n        \"Design\": 746,\n        \"JavaScript\": 1348,\n        \"Ruby\": 0,\n        \"PHP\": 0,\n        \"WordPress\": 0,\n        \"iOS\": 0,\n        \"Android\": 178,\n        \"Development Tools\": 14,\n        \"Business\": 0,\n        \"Python\": 0,\n        \"Java\": 0,\n        \"Digital Literacy\": 0,\n        \"Game Development\": 0\n    }\n}\nvar jeffJSON = {\n    \"name\": \"Jeff Dunn\",\n    \"profile_name\": \"jeffdunn\",\n    \"profile_url\": \"https://teamtreehouse.com/jeffdunn\",\n    \"gravatar_url\": \"https://uploads.teamtreehouse.com/production/profile-photos/3338282/thumb_Treehouse_Profile_Picture.jpg\",\n    \"gravatar_hash\": \"e2abf1118e149c0328f207c997edd8e7\",\n    \"badges\": [{\n        \"id\": 912,\n        \"name\": \"HTML\",\n        \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website/beginning-html-and-css\",\n        \"icon_url\": \"https://achievement-images.teamtreehouse.com/badges_html_howtomakeawebsite_stage01.png\",\n        \"earned_date\": \"2015-07-09T17:56:34.000Z\",\n        \"courses\": [{\n            \"title\": \"How to Make a Website\",\n            \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website\",\n            \"badge_count\": 1\n        }, {\n            \"title\": \"Beginning HTML and CSS\",\n            \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website/beginning-html-and-css\",\n            \"badge_count\": 1\n        }]\n    }, {\n        \"id\": 822,\n        \"name\": \"Cap\",\n        \"url\": \"https://teamtreehouse.com/library/jquery-basics/creating-a-spoiler-revealer\",\n        \"icon_url\": \"https://achievement-images.teamtreehouse.com/badges_JavaScript_jQueryBasics_Stage2.png\",\n        \"earned_date\": \"2015-08-31T05:07:04.000Z\",\n        \"courses\": [{\n            \"title\": \"jQuery Basics\",\n            \"url\": \"https://teamtreehouse.com/library/jquery-basics\",\n            \"badge_count\": 1\n        }, {\n            \"title\": \"Creating a Spoiler Revealer\",\n            \"url\": \"https://teamtreehouse.com/library/jquery-basics/creating-a-spoiler-revealer\",\n            \"badge_count\": 1\n        }]\n    }, {\n        \"id\": 3082,\n        \"name\": \"JS\",\n        \"url\": \"https://teamtreehouse.com/library/build-an-android-app/getting-started-with-android\",\n        \"icon_url\": \"https://achievement-images.teamtreehouse.com/badges_Android_BuildASimple_Stage1.png\",\n        \"earned_date\": \"2015-04-14T02:46:39.000Z\",\n        \"courses\": [{\n            \"title\": \"Build a Simple Android App\",\n            \"url\": \"https://teamtreehouse.com/library/build-a-simple-android-app\",\n            \"badge_count\": 1\n        }, {\n            \"title\": \"Getting Started with Android\",\n            \"url\": \"https://teamtreehouse.com/library/build-an-android-app/getting-started-with-android\",\n            \"badge_count\": 1\n        }]\n    }, {\n        \"id\": 922,\n        \"name\": \"CSS\",\n        \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website/html-first\",\n        \"icon_url\": \"https://achievement-images.teamtreehouse.com/bagdes_html_howtobuildawebsite_stage02.png\",\n        \"earned_date\": \"2015-07-23T05:42:26.000Z\",\n        \"courses\": [{\n            \"title\": \"How to Make a Website\",\n            \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website\",\n            \"badge_count\": 1\n        }, {\n            \"title\": \"HTML First\",\n            \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website/html-first\",\n            \"badge_count\": 1\n        }]\n    }],\n    \"points\": {\n        \"total\": 1683,\n        \"HTML\": 513,\n        \"CSS\": 546,\n        \"Design\": 0,\n        \"JavaScript\": 110,\n        \"Ruby\": 0,\n        \"PHP\": 0,\n        \"WordPress\": 0,\n        \"iOS\": 0,\n        \"Android\": 0,\n        \"Development Tools\": 483,\n        \"Business\": 0,\n        \"Python\": 0,\n        \"Java\": 0,\n        \"Digital Literacy\": 0,\n        \"Game Development\": 0\n    }\n}\nvar erikJSON = {\n    \"name\": \"Erik Hansen\",\n    \"profile_name\": \"erikphansen\",\n    \"profile_url\": \"https://teamtreehouse.com/erikphansen\",\n    \"gravatar_url\": \"https://uploads.teamtreehouse.com/production/profile-photos/3338282/thumb_Treehouse_Profile_Picture.jpg\",\n    \"gravatar_hash\": \"e2abf1118e149c0328f207c997edd8e7\",\n    \"badges\": [{\n        \"id\": 912,\n        \"name\": \"HTML\",\n        \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website/beginning-html-and-css\",\n        \"icon_url\": \"https://achievement-images.teamtreehouse.com/badges_html_howtomakeawebsite_stage01.png\",\n        \"earned_date\": \"2015-07-09T17:56:34.000Z\",\n        \"courses\": [{\n            \"title\": \"How to Make a Website\",\n            \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website\",\n            \"badge_count\": 1\n        }, {\n            \"title\": \"Beginning HTML and CSS\",\n            \"url\": \"https://teamtreehouse.com/library/how-to-make-a-website/beginning-html-and-css\",\n            \"badge_count\": 1\n        }]\n    }],\n    \"points\": {\n        \"total\": 1683,\n        \"HTML\": 513,\n        \"CSS\": 546,\n        \"Design\": 0,\n        \"JavaScript\": 110,\n        \"Ruby\": 0,\n        \"PHP\": 0,\n        \"WordPress\": 0,\n        \"iOS\": 0,\n        \"Android\": 0,\n        \"Development Tools\": 483,\n        \"Business\": 0,\n        \"Python\": 0,\n        \"Java\": 0,\n        \"Digital Literacy\": 0,\n        \"Game Development\": 0\n    }\n}\n\n\n\nif (typeof require !== 'undefined'){\n    var Person = require('../js/person.js');\n    var Badge = require('../js/badge.js');\n    //var Controller = require('../js/controller.js');\n\n    var chai = require('chai');\n};\n\nvar expect = chai.expect;\n\ndescribe('Testing the tester', function() {\n    var num = 9;\n    it('should pass this simple test', function(){\n      expect(num).to.equal(9);\n    })\n\n});\n\ndescribe('Testing the Person Ctor', function() {\n\n    var erik = new Person()\n    \n    var jason = new Person();\n\n    jason.name = 'jason'\n    jason.username = 'jasonsiren'\n\n    it('should be an Object', function(){\n        expect(jason).to.be.an('object');\n      \n\n    })\n    it('should have a class of Person', function(){\n        expect(jason.constructor).to.equal(Person);\n\n    })\n\n    it ('should have a name value of jason', function(){\n        expect(jason)\n    })\n\n// make an ajax call for a singular person,\n// see that it returns a json file\n// google aynchronous tests in mocha chai\n});\n\ndescribe('Testing the controller Ctor', function() {\n\n    var controller = new Controller();\n    controller.populateWithFakeData([patJSON, jasonJSON, jeffJSON, erikJSON]);\n\n   \n    it('should contain an array of people', function(){\n        expect(controller.people).to.be.instanceof(Array);\n\n    })\n    it('The people array length should be 4', function(){\n        expect(controller.people.length).to.equal(4);\n\n    })\n\n    it('the people array should contain a Person at index 0', function(){\n        expect(controller.people[0]).to.be.instanceof(Person);\n    })\n\n    it('the getPersonByUsername function should return the correct Person', function(){\n        expect(controller.getPersonByUsername('jeffdunn').username).to.equal('jeffdunn');\n    })\n\n    \n    it('the badgesOfPerson function should return the correct badges for each person', function(){\n        var jeff = controller.getPersonByUsername('jeffdunn');\n\n        expect(controller.badgesOfPerson(jeff).length).to.equal(4);\n    })\n\n    it('the intersectBadges function should return the correct intersection of badges', function(){\n        var jeff = controller.getPersonByUsername('jeffdunn');\n        var jason = controller.getPersonByUsername('jasonsiren')\n        \n        expect(controller.intersectBadges(jeff, jason).length).to.equal(2);\n    })\n\n    it('the intersectBadges function result array should contain the HTML and JS badges', function(){\n        var jeff = controller.getPersonByUsername('jeffdunn');\n        var jason = controller.getPersonByUsername('jasonsiren')\n        \n        var intersection = controller.intersectBadges(jeff, jason);\n        var htmlBadge = intersection.filter(function(e){\n            return e.name === 'HTML'\n        })[0] \n        var jsBadge = intersection.filter(function(e){\n            return e.name === 'JS'\n        })[0]\n\n        expect(htmlBadge).to.not.be.undefined;\n        expect(jsBadge).to.not.be.undefined;\n    })\n\n    it('the similarity function should return the correct similarity score', function(){\n        var jeff = controller.getPersonByUsername('jeffdunn');\n        var jason = controller.getPersonByUsername('jasonsiren');\n        var pat = controller.getPersonByUsername('patharryux');\n        \n        expect(controller.similarity(jeff, jason)).to.equal(.5);\n        expect(controller.similarity(pat, jason)).to.equal(.25);\n        expect(controller.similarity(pat, jeff)).to.equal(.5);\n        expect(controller.similarity(pat, pat)).to.equal(1);\n    })\n\n    it('the score function should return the correct intersection of badges', function(){\n        var cssBadge = controller.badges.filter(function(e){\n            return e.name === 'CSS'\n        })[0] \n        \n        var jason = controller.getPersonByUsername('jasonsiren');\n        \n        expect(controller.score(cssBadge, jason)).to.equal(.75);\n    })\n\n    it('the getRecommendationsFor function should return an array of the correct recommendations of unearned badges', function(){\n        var pat = controller.getPersonByUsername('patharryux');\n        var erik = controller.getPersonByUsername('erikphansen');\n        \n        var rec1 = controller.getRecommendationsFor(pat,1)[0];\n        var rec2 = controller.getRecommendationsFor(erik,1)[0];\n        \n        \n        expect(rec1.name).to.equal('JS');\n        expect(rec2.name).to.equal('CSS');\n    })\n\n\n\n\n\n\n\n// Controller.prototype.getRecommendationsFor = function (person)\n\n\n\n\n\n});\n\n\n\n\n\n// Controller.prototype.getAndProcessData = function()\n\n// Controller.prototype.getPersonByUsername = function (name)\n\n// Controller.prototype.badgesOfPerson = function(person)\n\n\n\n// Controller.prototype.getUnearnedBadgesFor = function (person)\n\n\n\n\n\n// Controller.prototype.getRecommendationsFor = function (person)",
+			"file": "test/tests.js",
+			"file_size": 15874,
+			"file_write_time": 130858806950000000,
+			"settings":
+			{
+				"buffer_size": 15903,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 1002,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/controller.js",
+			"settings":
+			{
+				"buffer_size": 5289,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<snippet>\n	<content><![CDATA[\nHello, ${1:this} is a ${2:snippet}.\n]]></content>\n	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->\n	<!-- <tabTrigger>hello</tabTrigger> -->\n	<!-- Optional: Set a scope to limit where the snippet will trigger -->\n	<!-- <scope>source.python</scope> -->\n</snippet>\n",
+			"settings":
+			{
+				"buffer_size": 317,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "treehouse-badges.sublime-project",
+			"settings":
+			{
+				"buffer_size": 150,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/erikhansen/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 43,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/erikhansen/projects/pcs/treehouse-badges"
+	],
+	"file_history":
+	[
+		"/Users/erikhansen/Desktop/longjson.js",
+		"/Users/erikhansen/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "test/tests.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11621,
+								11621
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 278.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								317,
+								317
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Users/erikhansen/Library/Application Support/Sublime Text 3/Packages/User",
+							"default_extension": "sublime-snippet",
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "treehouse-badges.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/erikhansen/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 43,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "treehouse-badges.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"contr",
+				"js/controller.js"
+			],
+			[
+				"m",
+				"js/main.js"
+			],
+			[
+				"test",
+				"test/tests.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
