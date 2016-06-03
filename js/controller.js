@@ -6,8 +6,8 @@ if (typeof require !== "undefined") {
 var Controller = (function() {
 
 	function Controller() {
-		this.usernames = ["jonathanschneider"];
-		// this.usernames = ['patharryux' , 'jasonsiren' , 'nathanbennett3' , 'erikphansen' , 'donguyen' , 'adamtaitano' , 'jeffdunn' , 'kathleenkent' , 'tybrenner' , 'jenniferminetree' , 'josephfraley2' , 'mitchelllillie' , 'jtz1983' , 'mkelley2']
+		// this.usernames = ["jonathanschneider"];
+		this.usernames = [];
 		this.people = [];
 		this.badges = [];
 		this.completedCallback = null;
@@ -76,12 +76,19 @@ var Controller = (function() {
 
 	Controller.prototype.getAndProcessData = function() {
 		// make get JSON calls for each username
-		// parse each JSON object and create a ner Person object for each
+		// parse each JSON object and create a new Person object for each
 		// and make a new Badge or update the existing Badge
 		this.usernames.forEach(function(e, i) {
 			var url = "https://teamtreehouse.com/" + e + ".json";
 			$.getJSON(url, makeJSONCallback(this));
 		}, this)
+	}
+
+	Controller.prototype.setUsername = function(username) {
+		console.log("set username to " + username);
+		this.people = [];
+		this.usernames = [username];
+		this.getAndProcessData();
 	}
 
 	Controller.prototype.getPersonByUsername = function (name) {
@@ -120,12 +127,6 @@ var Controller = (function() {
 		return _.reduce(people, function (sum, e) {
 			return sum += this.similarity(e, person);
 		}, 0, this);
-
-			// 	    return people.reduce(function (sum, e) {
-			// // TODO: store this in self and use self in the callback
-			// console.log("score() `this`: " + this);
-			// return sum += this.similarity(e, person);
-			// 	    }, 0);
 	}
 
 	Controller.prototype.getRecommendationsFor = function (person, maxRecs) {

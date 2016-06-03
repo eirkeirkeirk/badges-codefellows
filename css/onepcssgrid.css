@@ -35,7 +35,7 @@
  */
 .onepcssgrid-1000, .onepcssgrid-1200 {
 	margin: 0 auto;
-	padding: 0 0 0 1%; /* THAT'S THE NAME ;) */
+	padding: 0 0 0 0; /* THAT'S THE NAME ;) */
 }
 
 .onepcssgrid-1200 {
